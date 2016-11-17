@@ -1,0 +1,23 @@
+/*1. Container di atur agar lebih lebar*/
+.c-container {
+  margin: 0 auto;
+  max-width: 1024px;
+  width: 90%;
+}
+
+@media only screen and (min-width: 601px) {
+  .c-container {
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .c-container {
+    width: 70%;
+  }
+}
+
+.c-container .row {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
